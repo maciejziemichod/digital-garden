@@ -1,7 +1,11 @@
 <template>
-  <div>
+  <div class="articles">
     <article v-for="article in articles" :key="article.title">
-      <img v-if="article.thumbnail" :src="article.thumbnail" />
+      <div v-if="article.thumbnail">
+        <a :href="article.path">
+          <img :src="article.thumbnail" />
+        </a>
+      </div>
       <a :href="article.path">
         <h2>
           {{ article.title }}
@@ -28,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
+.articles {
+  padding-top: 2rem;
+}
+
 article {
   padding-bottom: 3rem;
 }
@@ -36,9 +44,5 @@ img {
   max-width: 100%;
   margin: 40px auto;
   display: block;
-}
-
-a h2 {
-  color: var(--main-font-color);
 }
 </style>

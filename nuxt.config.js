@@ -41,7 +41,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ["faSearch"],
+      solid: ["faSearch", "faTimes"],
       regular: ["faSun", "faMoon"],
       brands: ["faGithub", "faLinkedinIn", "faCodepen", "faTwitter"],
     },

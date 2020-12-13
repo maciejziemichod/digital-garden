@@ -24,7 +24,7 @@
           <span class="home-title"> my digital garden </span>
         </NuxtLink>
         <span>
-          <SearchButton />
+          <SearchComponent />
           <ColorModeButton />
         </span>
       </nav>
@@ -109,6 +109,15 @@ h3 {
 
 h3 {
   font-size: 1.3rem;
+}
+
+a h1,
+a h2,
+a h3,
+a h4,
+a h5,
+a h6 {
+  color: var(--main-font-color);
 }
 
 header {
