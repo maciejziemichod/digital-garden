@@ -11,12 +11,12 @@
         <label for="search">Search for desired content</label>
         <input v-model="query" type="search" autocomplete="off" id="search" />
         <article v-for="article in articles" :key="article.title">
-          <a :href="article.path">
+          <NuxtLink :to="article.path">
             <h2>
               {{ article.title }}
             </h2>
-          </a>
-          <a :href="article.path">Read this article</a>
+          </NuxtLink>
+          <NuxtLink :to="article.path"> Read this article </NuxtLink>
         </article>
       </div>
     </div>

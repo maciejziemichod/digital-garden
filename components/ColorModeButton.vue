@@ -1,7 +1,7 @@
 <template>
   <button @click="toggleColorMode">
     <FaIcon
-      v-if="$colorMode.value === 'dark'"
+      v-if="$colorMode.preference === 'dark'"
       :icon="['far', 'sun']"
       class="fa-lg"
     />
@@ -13,10 +13,10 @@
 export default {
   methods: {
     toggleColorMode() {
-      if (this.$colorMode.value === "dark") {
-        this.$colorMode.value = "light";
+      if (this.$colorMode.preference === "dark") {
+        this.$colorMode.preference = "light";
       } else {
-        this.$colorMode.value = "dark";
+        this.$colorMode.preference = "dark";
       }
     },
   },

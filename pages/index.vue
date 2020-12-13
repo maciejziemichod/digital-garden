@@ -34,11 +34,17 @@
         the future. When there will be more of them 🌱🌱🌱
       </p>
       <ul>
-        <li><a href="" rel="noopener noreferrer"> something </a></li>
-        <li><a href="" rel="noopener noreferrer"> like </a></li>
-        <li><a href="" rel="noopener noreferrer"> that </a></li>
+        <li>
+          <NuxtLink to="/"> something </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/"> like </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/"> that </NuxtLink>
+        </li>
       </ul>
-      <a class="btn" href="/articles">Show all articles</a>
+      <NuxtLink class="btn" to="/articles"> Show all articles</NuxtLink>
     </section>
   </main>
 </template>

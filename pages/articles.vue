@@ -2,19 +2,19 @@
   <div class="articles">
     <article v-for="article in articles" :key="article.title">
       <div v-if="article.thumbnail">
-        <a :href="article.path">
+        <NuxtLink :to="article.path">
           <img :src="article.thumbnail" />
-        </a>
+        </NuxtLink>
       </div>
-      <a :href="article.path">
+      <NuxtLink :to="article.path">
         <h2>
           {{ article.title }}
         </h2>
-      </a>
+      </NuxtLink>
       <p>
         {{ article.description }}
       </p>
-      <a :href="article.path">Read more</a>
+      <NuxtLink :to="article.path"> Read more </NuxtLink>
     </article>
   </div>
 </template>
