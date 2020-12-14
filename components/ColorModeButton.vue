@@ -1,5 +1,5 @@
 <template>
-  <button @click="toggleColorMode">
+  <button @click="toggleColorMode" title="Switch color modes">
     <FaIcon
       v-if="$colorMode.preference === 'dark'"
       :icon="['far', 'sun']"

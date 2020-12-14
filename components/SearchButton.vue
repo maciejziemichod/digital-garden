@@ -1,5 +1,5 @@
 <template>
-  <button>
+  <button title="Search">
     <FaIcon icon="search" class="fa-lg" />
   </button>
 </template>
