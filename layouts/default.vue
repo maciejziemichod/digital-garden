@@ -95,6 +95,8 @@ ul {
   /* padding-inline-start: 0; */
 }
 
+ul,
+ol,
 p {
   padding-bottom: 1.3rem;
 }
