@@ -30,4 +30,19 @@ h1 {
   margin: 40px auto;
   display: block;
 }
+.markdown h2 {
+  padding-left: 1.5rem;
+  margin-left: -1.5rem;
+}
+.markdown h2 a {
+  position: relative;
+}
+.markdown h2:hover a::before {
+  content: "#";
+  color: var(--special-font-color);
+  font-weight: 400;
+  margin-left: -1.25rem;
+  padding-right: 0.5rem;
+  position: absolute;
+}
 </style>
