@@ -27,12 +27,13 @@ h1 {
 
 .markdown img {
   max-width: 100%;
-  margin: 40px auto;
+  margin: 20px auto 40px;
   display: block;
 }
 .markdown h2 {
   padding-left: 1.5rem;
   margin-left: -1.5rem;
+  padding-top: 2rem;
 }
 .markdown h2 a {
   position: relative;
