@@ -4,22 +4,10 @@
       <nav>
         <NuxtLink to="/"
           ><span>
-            <img
-              v-if="$colorMode.value === 'light'"
-              src="~/assets/tree-light.svg"
-              alt="tree"
-              class="tree"
-            />
-            <img v-else src="~/assets/tree-dark.svg" alt="tree" class="tree" />
+            <TreeComponent class="tree" />
           </span>
           <span>
-            <img
-              v-if="$colorMode.value === 'light'"
-              src="~/assets/logo-light.svg"
-              alt="logo"
-              class="logo"
-            />
-            <img v-else src="~/assets/logo-dark.svg" alt="logo" class="logo" />
+            <LogoComponent class="logo" />
           </span>
           <span class="home-title"> my digital garden </span>
         </NuxtLink>
@@ -145,7 +133,6 @@ header nav .tree {
 }
 
 header nav .logo {
-  width: 50px;
   margin-left: -10px;
   margin-bottom: 12px;
 }
