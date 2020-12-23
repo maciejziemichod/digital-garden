@@ -46,4 +46,14 @@ h1 {
   padding-right: 0.5rem;
   position: absolute;
 }
+.markdown blockquote {
+  font-style: italic;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--special-font-color);
+  margin-bottom: 1.3rem;
+  font-size: 0.93rem;
+}
+.markdown blockquote p {
+  padding: 0;
+}
 </style>
