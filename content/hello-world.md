@@ -35,6 +35,10 @@ There weren't many of them, dev experience was smooth. They were my fault or wer
 
 First one was adding "linkedin-in" Font Awesome icon.
 
-I also wasn't sure how to include images in my posts.
+I also wasn't sure how to <nuxt-link to="/adding-images-to-markdown-in-nuxt">include images</nuxt-link> in my posts.
 
 The last one was my wrong use of color mode module, I wrote **$colorMode.value** instead of **$colorMode.preference** in ColorModeButton's toggling and that caused not saving setting between pages and after refresh.
+
+## Connected posts
+
+<nuxt-link to="/adding-images-to-markdown-in-nuxt">Adding images to Markdown in Nuxt</nuxt-link>
