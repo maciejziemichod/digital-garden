@@ -56,4 +56,7 @@ h1 {
 .markdown blockquote p {
   padding: 0;
 }
+.markdown pre {
+  margin-bottom: 3.5rem;
+}
 </style>

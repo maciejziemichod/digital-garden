@@ -41,4 +41,9 @@ The last one was my wrong use of color mode module, I wrote **$colorMode.value**
 
 ## Connected posts
 
-<nuxt-link to="/adding-images-to-markdown-in-nuxt">Adding images to Markdown in Nuxt</nuxt-link>
+- <nuxt-link to="/adding-font-awesome-icons-with-dashes-in-nuxt">
+  Adding "linkedin-in" Font Awesome icon
+  </nuxt-link>
+- <nuxt-link to="/adding-images-to-markdown-in-nuxt">
+  Adding images to Markdown in Nuxt
+  </nuxt-link>
