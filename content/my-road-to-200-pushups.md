@@ -21,3 +21,5 @@ Format: did I make it - date - number of pushups - rest time in minutes
 ✔️ 24.12.2020 - 12/10/9/9/8 - 2:00
 
 ✔️ 26.12.2020 - 20
+
+✔️ 28.12.2020 - 12/10/9/8/7 - 1:30
