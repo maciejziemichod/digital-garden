@@ -53,4 +53,10 @@ export default {
     },
     component: "FaIcon",
   },
+
+  target: "static",
+
+  router: {
+    base: "/digital-garden/",
+  },
 };
