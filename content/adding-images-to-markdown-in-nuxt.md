@@ -8,9 +8,9 @@ When I first used Nuxt Content, I wasn't sure how to add images in my markdown f
 
 ## Static + \!\[\]\(\)
 
-This is the first way I found out and that is used in this site. I'm putting images in my static folder, naming them properly in my own system (optional): **url_with_distinction_using_underscores** and then writing in markdown **\!\[alt text\]\(image-url\)**.
+This is the first way I found out and that is used in this site. I'm putting images in my static folder, naming them properly in my own system (optional): `url_with_distinction_using_underscores` and then writing in markdown `![alt text](image-url)`.
 
-All my images on \_slug.vue page are styled the same, so this way is imo the easiest.
+All my images on `_slug.vue` page are styled the same, so this way is imo the easiest.
 
 ## Static + HTML
 
@@ -29,7 +29,7 @@ Your markdown
 
 For methods shown in this section you need Nuxt >= v2.13.0 and Nuxt Content >= v1.4.0.
 
-First you need to create ImageComponent.vue and put it in components/global folder
+First you need to create `ImageComponent.vue` and put it in `components/global` folder
 
 ```js
 <template>
@@ -48,11 +48,11 @@ export default {
 </script>
 ```
 
-Because webpack aliases are executed at compile time you need the **require()** function when \<img\> src is v-binded.
+Because webpack aliases are executed at compile time you need the `require()` function when `<img>` src is v-binded.
 
 Then put your images in assets folder.
 
-Final step is simply to use custom component in your Markdown. It has to be kebab-cased, so do props and it cannot be \<self-closing \/\>.
+Final step is simply to use custom component in your Markdown. It has to be kebab-cased, so do props and it cannot be `<self-closing />`.
 
 ```html
 Your markdown
@@ -61,3 +61,9 @@ Your markdown
 
 Your markdown
 ```
+
+## Connected posts
+
+<nuxt-link to="/hello-world">
+More about creating my digital garden
+</nuxt-link>

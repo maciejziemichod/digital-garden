@@ -22,8 +22,11 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const articles = await $content().sortBy("updatedAt", "desc").fetch();
-
+    const articles = await $content()
+      .only(["path", "title", "description", "updatedAt", "thumbnail"])
+      .sortBy("updatedAt", "desc")
+      .fetch();
+    console.log(articles);
     return {
       articles,
     };

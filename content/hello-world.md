@@ -15,7 +15,7 @@ Initially I've tried Vuepress but due to some bugs at the early stages of config
 
 It turned out to be really pleasant to use. Switching to Vue from React felt like a good call and I had similar feelings about Nuxt: Vue on steroids.
 
-Docs are similar to Vue's - purely amazing. I've used **npx create-nuxt-app** and the project was ready to run. So nice and clean, I love it.
+Docs are similar to Vue's - purely amazing. I've used `npx create-nuxt-app` and the project was ready to run. So nice and clean, I love it.
 
 Automatic routing seems like a thing that should be a part of Vue itself. Vue Router is not hard, but if it can be automated, it should be. Nuxt is full of that kind of easing.
 
@@ -33,11 +33,11 @@ To create blog-like site Nuxt Content is perfect solution. It's a module that ac
 
 There weren't many of them, dev experience was smooth. They were my fault or were caused by just using new technology that I don't know.
 
-First one was adding "linkedin-in" Font Awesome icon.
+First one was adding `linkedin-in` Font Awesome icon.
 
 I also wasn't sure how to <nuxt-link to="/adding-images-to-markdown-in-nuxt">include images</nuxt-link> in my posts.
 
-The last one was my wrong use of color mode module, I wrote **$colorMode.value** instead of **$colorMode.preference** in ColorModeButton's toggling and that caused not saving setting between pages and after refresh.
+The last one was my wrong use of color mode module, I wrote `$colorMode.value` instead of `$colorMode.preference` in ColorModeButton's toggling and that caused not saving setting between pages and after refresh.
 
 ## Connected posts
 
@@ -46,4 +46,7 @@ The last one was my wrong use of color mode module, I wrote **$colorMode.value**
   </nuxt-link>
 - <nuxt-link to="/adding-images-to-markdown-in-nuxt">
   Adding images to Markdown in Nuxt
+  </nuxt-link>
+- <nuxt-link to="/choosing-the-dark">
+  Implementing dark mode
   </nuxt-link>

@@ -27,7 +27,9 @@
 <style>
 :root {
   --main-font-color: #354951;
+  --main-faded-font-color: #354951a5;
   --special-font-color: #29c29e;
+  --code-background-color: #e3e3e3;
   --background-color: #f3f3f3;
   --hover-background-color: #3b8070;
   --hover-font-color: #f3f3f3;
@@ -36,6 +38,8 @@
 
 .dark-mode {
   --main-font-color: #f3f3f3;
+  --main-faded-font-color: #f3f3f3a5;
+  --code-background-color: #2d3748;
   --background-color: #0d1b20;
   --footer-line-color: rgba(218, 228, 238, 0.2);
 }
@@ -83,6 +87,10 @@ ul {
   /* padding-inline-start: 0; */
 }
 
+li::marker {
+  color: var(--main-faded-font-color);
+}
+
 ul,
 ol,
 p {
@@ -108,6 +116,18 @@ a h4,
 a h5,
 a h6 {
   color: var(--main-font-color);
+}
+
+pre {
+  border-radius: 0.375rem;
+}
+
+p > code {
+  font-family: inherit;
+  background-color: var(--code-background-color);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
 }
 
 header {
