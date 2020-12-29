@@ -6,11 +6,13 @@ thumbnail:
 
 When I first used Nuxt Content, I wasn't sure how to add images in my markdown files. There are more than one way to do this, I'll show here the ones that I'm aware of.
 
+WARNING: if you want to deploy to GitHub Pages, you have to use [Vue Component method](#vue-component), because your links to images in Markdown won't be changed by `router's base` property.
+
 ## Static + \!\[\]\(\)
 
-This is the first way I found out and that is used in this site. I'm putting images in my static folder, naming them properly in my own system (optional): `url_with_distinction_using_underscores` and then writing in markdown `![alt text](image-url)`.
+This is the first way I found out and that was used in this site in development. I put images in my static folder, named them properly in my own system (optional): `url_with_distinction_using_underscores` and then wrote in markdown `![alt text](image-url)`.
 
-All my images on `_slug.vue` page are styled the same, so this way is imo the easiest.
+All my images on `_slug.vue` page are styled the same, so this way was imo the easiest.
 
 ## Static + HTML
 

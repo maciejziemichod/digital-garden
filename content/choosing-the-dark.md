@@ -4,7 +4,7 @@ description: Implementing dark mode using Nuxt Color Mode
 thumbnail: choosing-the-dark_thumbnail.png
 ---
 
-![moon](/choosing-the-dark_thumbnail.png)
+<content-image image="choosing-the-dark_thumbnail.png"></content-image>
 
 As you have probably seen, this website has theme button in the top right corner. In my opinion having dark mode is a necessity, no matter if it is a website or an app. I'm including it in every project, lets respect people's eyes 👀
 

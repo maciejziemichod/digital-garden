@@ -4,7 +4,7 @@ description: Workout journal
 thumbnail: my-road-to-200-pushups_thumbnail.jpg
 ---
 
-![pushups image](/my-road-to-200-pushups_thumbnail.jpg)
+<content-image image="my-road-to-200-pushups_thumbnail.jpg"></content-image>
 
 Hello. Here I will put my workout accomplishments. Since high school I've been exercising on my own, with a 2 years break. Right now I'm coming back. One time I've tried to reach 100 pushups but I failed. Now it's the time to try again, I'm going to use [200 Push-Ups](https://play.google.com/store/apps/details?id=com.powerups.pushups) app and add crunches after the workout.
 

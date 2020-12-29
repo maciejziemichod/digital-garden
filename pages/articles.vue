@@ -26,7 +26,7 @@ export default {
       .only(["path", "title", "description", "updatedAt", "thumbnail"])
       .sortBy("updatedAt", "desc")
       .fetch();
-    console.log(articles);
+
     return {
       articles,
     };
