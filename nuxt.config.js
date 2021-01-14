@@ -65,4 +65,10 @@ export default {
   router: {
     base: "/digital-garden/",
   },
+
+  hooks: {
+    "vue-renderer:ssr:templateParams": function (params) {
+      params.HEAD = params.HEAD.replace('<base href="/digital-garden/">', "");
+    },
+  },
 };
