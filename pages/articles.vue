@@ -3,7 +3,7 @@
     <article v-for="article in articles" :key="article.title">
       <div v-if="article.thumbnail">
         <NuxtLink :to="article.path">
-          <img :src="article.thumbnail" />
+          <img :src="getSrc(article.thumbnail)" />
         </NuxtLink>
       </div>
       <NuxtLink :to="article.path">
@@ -30,6 +30,11 @@ export default {
     return {
       articles,
     };
+  },
+  methods: {
+    getSrc(src) {
+      return require("@/assets/" + src);
+    },
   },
 };
 </script>
