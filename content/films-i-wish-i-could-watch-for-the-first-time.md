@@ -15,6 +15,7 @@ Everyone enjoying watching films has this moment of realization that he/she just
 - [Donnie Darko](#donnie-darko)
 - [The Dark Knight](#the-dark-knight)
 - [House](#house)
+- [Spirited Away](#spirited-away)
 - [Watchlist](#watchlist)
 
 ## Suspiria
@@ -64,6 +65,12 @@ Heath Ledger.
 <content-image image="films-i-wish-i-could-watch-for-the-first-time_house.jpg"></content-image>
 
 For me Dr House is just iconic. I don't know how many times I've watched every season, probably like 3. Interesting medical cases combined with complex characters is the thing that makes me come back to this series.
+
+## Spirited Away
+
+<content-image image="films-i-wish-i-could-watch-for-the-first-time_spirited_away.jpg"></content-image>
+
+I don't know why, but when I thing of animated tale, this is the first thing that comes to my mind. The story is full of different beings, and that spellbinds the viewer. It has its own elusive charm which remains throughout the years.
 
 ## Watchlist
 
