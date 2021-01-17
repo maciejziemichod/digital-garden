@@ -62,4 +62,12 @@
   border-color: var(--hover-background-color);
   color: var(--hover-font-color);
 }
+
+@media (max-width: 767px) {
+  .btn {
+    margin: 60px auto 0;
+    display: block;
+    width: fit-content;
+  }
+}
 </style>

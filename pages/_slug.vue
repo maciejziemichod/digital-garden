@@ -38,14 +38,6 @@ h1 {
 .markdown h2 a {
   position: relative;
 }
-.markdown h2:hover a::before {
-  content: "#";
-  color: var(--special-font-color);
-  font-weight: 400;
-  margin-left: -1.25rem;
-  padding-right: 0.5rem;
-  position: absolute;
-}
 .markdown blockquote {
   font-style: italic;
   padding-left: 1.5rem;
@@ -58,5 +50,22 @@ h1 {
 }
 .markdown pre {
   margin-bottom: 3.5rem;
+}
+
+@media (min-width: 767px) {
+  .markdown h2:hover a::before {
+    content: "#";
+    color: var(--special-font-color);
+    font-weight: 400;
+    margin-left: -1.25rem;
+    padding-right: 0.5rem;
+    position: absolute;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 </style>
